@@ -1,0 +1,31 @@
+# BLITZSCALE: Fast and Live Large Model Autoscaling with O(1) Host Caching
+
+## Abstract
+Model autoscaling is the key mechanism to achieve server-
+less model-as-a-service, but it faces a fundamental trade-off
+between scaling speed and storage/memory usage to cache
+parameters, and cannot meet frequent scaling requirements
+across multiple hosts. The key problem is that data plane per-
+formance is slow, and scaled instances remain stopped while
+parameters are loading.
+In this paper, we first show that the data plane can be
+made fast with no or O(1) caching by loading parameters
+through the compute network between GPUs because: (1) its
+speed is comparable to host cache and is underutilized, and
+(2) scaling multiple instances requires no or O(1) caching
+with network-optimized multicast. Second, autoscaling can
+be made live by breaking the scaling abstraction for inference
+from a coarse-grained instance-level to a fine-grained layer-
+level. This allows us to offload the layer computation from
+the overloaded serving instances to the scaled ones without
+waiting for the parameters to be fully loaded.
+Under real-world workloads, our system BLITZSCALE
+achieves up to 94 % lower tail latency reductions compared to
+state-of-the-art autoscaling system (ServerlessLLM), and it re-
+duces the GPU time used for serving by 49 % when compared
+with serving systems that do not support autoscaling like Dist-
+Serve and vLLM with the same service-level-agreement.
+
+## People
+Institute of Parallel and Distributed Systems, Shanghai Jiao Tong University 
+Huawei Cloud
