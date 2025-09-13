@@ -15,3 +15,6 @@ All the papers can be found [here](https://www.usenix.org/conf%C3%A9rence/osdi25
 10. [Achieving Low-Latency Graph-Based Vector Search via Aligning Best-First Search Algorithm with SSD](./PipeAnn.md)
 11. [Skybridge: Bounded Staleness for Distributed Caches](./Skybridge.md)
 12. [KPerfIR: Towards an Open and Compiler-centric Ecosystem for GPU Kernel Performance Tooling on Modern AI Workloads](./KPerfIR.md)
+13. [Mirage: A Multi-Level Superoptimizer for Tensor Programs](./Mirage.md)
+14. [QiMeng-Xpiler: Transcompiling Tensor Programs for Deep Learning Systems with a Neural-Symbolic Approach](./QiMeng-Xpiler.md)
+15. [WaferLLM: Large Language Model Inference at Wafer Scale](./WaferLLM.md)
