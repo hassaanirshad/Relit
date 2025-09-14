@@ -28,3 +28,4 @@ All the papers can be found [here](https://www.usenix.org/conf%C3%A9rence/osdi25
 23. [Quantum Virtual Machines](./hyperq.md)
 24. [QOS: Quantum Operating System](./qos.md)
 25. [Scalio: Scaling up DPU-based JBOF Key-value Store with NVMe-oF Target Offload](./scalio.md)
+26. [Low End-to-End Latency atop a Speculative Shared Log with Fix-Ante Ordering](./speclog.md)
