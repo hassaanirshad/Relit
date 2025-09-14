@@ -23,3 +23,4 @@ All the papers can be found [here](https://www.usenix.org/conf%C3%A9rence/osdi25
 18. [Training with Confidence: Catching Silent Errors in Deep Learning Training with Automated Proactive Checks](./training_with_confidence.md)
 19. [NEUTRINO: Fine-grained GPU Kernel Profiling via Programmable Probing](./NEUTRINO.md)
 20. [Principles and Methodologies for Serial Performance Optimization](./principles_and_methods.md)
+21. [Söze: One Network Telemetry Is All You Need for Per-flow Weighted Bandwidth Allocation at Scale](./soze.md)
