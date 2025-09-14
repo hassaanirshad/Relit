@@ -27,3 +27,4 @@ All the papers can be found [here](https://www.usenix.org/conf%C3%A9rence/osdi25
 22. [Decouple and Decompose: Scaling Resource Allocation with DEDE](./decouple_and_decompose.md)
 23. [Quantum Virtual Machines](./hyperq.md)
 24. [QOS: Quantum Operating System](./qos.md)
+25. [Scalio: Scaling up DPU-based JBOF Key-value Store with NVMe-oF Target Offload](./scalio.md)
