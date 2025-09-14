@@ -20,3 +20,5 @@ All the papers can be found [here](https://www.usenix.org/conf%C3%A9rence/osdi25
 15. [WaferLLM: Large Language Model Inference at Wafer Scale](./WaferLLM.md)
 16. [BLITZSCALE: Fast and Live Large Model Autoscaling with O(1) Host Caching](./blitzscale.md)
 17. [Bayesian Code Diffusion for Efficient Automatic Deep Learning Program Optimization](./baysian.md)
+18. [Training with Confidence: Catching Silent Errors in Deep Learning Training with Automated Proactive Checks](./training_with_confidence.md)
+19. 
