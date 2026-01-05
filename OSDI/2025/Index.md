@@ -31,3 +31,4 @@ All the papers can be found [here](https://www.usenix.org/conf%C3%A9rence/osdi25
 26. [Low End-to-End Latency atop a Speculative Shared Log with Fix-Ante Ordering](./speclog.md)
 27. [Understanding Stragglers in Large Model Training Using What-if Analysis](./what_if.md)
 28. [Fork in the Road: Reflections and Optimizations for Cold Start Latency in Production Serverless Systems](./fork_in_the_road.md)
+29. [Kamino: Efficient VM Allocation at Scale with Latency-Driven Cache-Aware Scheduling](./kamino.md)
